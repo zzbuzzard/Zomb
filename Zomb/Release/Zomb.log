@@ -1,0 +1,111 @@
+﻿  pch.cpp
+  Anim.cpp
+  BigBoi.cpp
+  Boss1.cpp
+  Button.cpp
+c:\users\z\source\repos\zomb\zomb\button.cpp(36): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+  CaveThing.cpp
+  CircleObj.cpp
+  Controller.cpp
+  EarthStaff.cpp
+c:\users\z\source\repos\zomb\zomb\earthstaff.cpp(15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  EnemyProjectile.cpp
+  EnemyShotNormal.cpp
+  EnemyStats.cpp
+  FootWalk.cpp
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(7): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(8): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\footwalk.cpp(66): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  LoadingState.cpp
+  PlayerShotBouncing.cpp
+  PlayerShotLife.cpp
+  ReinforcedZomb.cpp
+  RockGolem.cpp
+  RustyPistol.cpp
+c:\users\z\source\repos\zomb\zomb\rustypistol.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SDashShotgun.cpp
+c:\users\z\source\repos\zomb\zomb\sdashshotgun.cpp(23): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\sdashshotgun.cpp(24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Enemy.cpp
+  Compiling...
+  EnemyShield.cpp
+c:\users\z\source\repos\zomb\zomb\enemyshield.cpp(21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  GameState.cpp
+c:\users\z\source\repos\zomb\zomb\gamestate.cpp(480): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Inventory.cpp
+c:\users\z\source\repos\zomb\zomb\inventory.cpp(46): warning C4060: switch statement contains no 'case' or 'default' labels
+  InventoryState.cpp
+  Item.cpp
+  ItemCrate.cpp
+c:\users\z\source\repos\zomb\zomb\itemcrate.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\z\source\repos\zomb\zomb\itemcrate.cpp(115): warning C4018: '<': signed/unsigned mismatch
+  Levels.cpp
+  LevelSelectState.cpp
+c:\users\z\source\repos\zomb\zomb\levelselectstate.cpp(171): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\levelselectstate.cpp(197): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\z\source\repos\zomb\zomb\levelselectstate.cpp(201): warning C4305: 'argument': truncation from 'double' to 'float'
+  LivingObject.cpp
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(66): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(234): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(242): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(243): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(252): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\livingobject.cpp(253): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ElectricStaff.cpp
+c:\users\z\source\repos\zomb\zomb\electricstaff.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Pistol.cpp
+c:\users\z\source\repos\zomb\zomb\pistol.cpp(19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Player.cpp
+  main.cpp
+  PlayerProjectile.cpp
+  PlayerShotNormal.cpp
+  Projectile.cpp
+  Runner.cpp
+  Media.cpp
+  ScienceZomb.cpp
+c:\users\z\source\repos\zomb\zomb\sciencezomb.cpp(139): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\sciencezomb.cpp(192): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\sciencezomb.cpp(192): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\sciencezomb.cpp(252): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  SDash.cpp
+  Compiling...
+  SDash_Multiple_Shotgun.cpp
+c:\users\z\source\repos\zomb\zomb\sdash_multiple_shotgun.cpp(35): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\z\source\repos\zomb\zomb\sdash_multiple_shotgun.cpp(36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  SElectricBurst.cpp
+c:\users\z\source\repos\zomb\zomb\selectricburst.cpp(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Shotgun.cpp
+c:\users\z\source\repos\zomb\zomb\shotgun.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Special.cpp
+  SpecialController.cpp
+  SpecialUpgradeTreeState.cpp
+c:\users\z\source\repos\zomb\zomb\specialupgradetreestate.cpp(93): warning C4018: '<': signed/unsigned mismatch
+  State.cpp
+  StatHoverWindow.cpp
+c:\users\z\source\repos\zomb\zomb\stathoverwindow.cpp(16): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+c:\users\z\source\repos\zomb\zomb\stathoverwindow.cpp(20): warning C4244: 'argument': conversion from 'const float' to 'unsigned int', possible loss of data
+  Stats.cpp
+c:\users\z\source\repos\zomb\zomb\stats.cpp(27): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+  Util.cpp
+c:\users\z\source\repos\zomb\zomb\util.cpp(34): warning C4244: 'argument': conversion from 'float' to 'sf::Uint8', possible loss of data
+c:\users\z\source\repos\zomb\zomb\util.cpp(117): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Weapon.cpp
+  Zomb1.cpp
+  ZombieFarmer.cpp
+  Generating code
+  623 of 2525 functions (24.7%) were compiled, the rest were copied from previous compilation.
+    291 functions were new in current compilation
+    124 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Zomb.vcxproj -> C:\Users\Z\source\repos\Zomb\Release\Zomb.exe

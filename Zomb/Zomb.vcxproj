@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{2176e9f1-964a-47c7-8a15-04361d18edd2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Zomb</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\Z\source\repos\Libraries\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Z\source\repos\Libraries\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-window-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>C:\Users\Z\source\repos\Libraries\sfml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Z\source\repos\Libraries\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;sfml-window.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Anim.h" />
+    <ClInclude Include="BigBoi.h" />
+    <ClInclude Include="Boss1.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CaveThing.h" />
+    <ClInclude Include="CircleObj.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="EarthStaff.h" />
+    <ClInclude Include="EnemyProjectile.h" />
+    <ClInclude Include="EnemyShotNormal.h" />
+    <ClInclude Include="EnemyStats.h" />
+    <ClInclude Include="FootWalk.h" />
+    <ClInclude Include="IncludeEnemies.h" />
+    <ClInclude Include="LoadingState.h" />
+    <ClInclude Include="PlayerShotBouncing.h" />
+    <ClInclude Include="PlayerShotLife.h" />
+    <ClInclude Include="ReinforcedZomb.h" />
+    <ClInclude Include="RockGolem.h" />
+    <ClInclude Include="RustyPistol.h" />
+    <ClInclude Include="SDashShotgun.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyShield.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="IncludeSpecials.h" />
+    <ClInclude Include="IncludeWeapons.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="InventoryState.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemCrate.h" />
+    <ClInclude Include="Levels.h" />
+    <ClInclude Include="LevelSelectState.h" />
+    <ClInclude Include="LivingObject.h" />
+    <ClInclude Include="ElectricStaff.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Pistol.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerProjectile.h" />
+    <ClInclude Include="PlayerShotNormal.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Runner.h" />
+    <ClInclude Include="Media.h" />
+    <ClInclude Include="ScienceZomb.h" />
+    <ClInclude Include="SDash.h" />
+    <ClInclude Include="SDash_Multiple_Shotgun.h" />
+    <ClInclude Include="SElectricBurst.h" />
+    <ClInclude Include="Shotgun.h" />
+    <ClInclude Include="Special.h" />
+    <ClInclude Include="SpecialController.h" />
+    <ClInclude Include="SpecialUpgradeTreeState.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StatHoverWindow.h" />
+    <ClInclude Include="Stats.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="Zomb1.h" />
+    <ClInclude Include="ZombieFarmer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Anim.cpp" />
+    <ClCompile Include="BigBoi.cpp" />
+    <ClCompile Include="Boss1.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CaveThing.cpp" />
+    <ClCompile Include="CircleObj.cpp" />
+    <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="EarthStaff.cpp" />
+    <ClCompile Include="EnemyProjectile.cpp" />
+    <ClCompile Include="EnemyShotNormal.cpp" />
+    <ClCompile Include="EnemyStats.cpp" />
+    <ClCompile Include="FootWalk.cpp" />
+    <ClCompile Include="LoadingState.cpp" />
+    <ClCompile Include="PlayerShotBouncing.cpp" />
+    <ClCompile Include="PlayerShotLife.cpp" />
+    <ClCompile Include="ReinforcedZomb.cpp" />
+    <ClCompile Include="RockGolem.cpp" />
+    <ClCompile Include="RustyPistol.cpp" />
+    <ClCompile Include="SDashShotgun.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyShield.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="InventoryState.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemCrate.cpp" />
+    <ClCompile Include="Levels.cpp" />
+    <ClCompile Include="LevelSelectState.cpp" />
+    <ClCompile Include="LivingObject.cpp" />
+    <ClCompile Include="ElectricStaff.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Pistol.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayerProjectile.cpp" />
+    <ClCompile Include="PlayerShotNormal.cpp" />
+    <ClCompile Include="Projectile.cpp" />
+    <ClCompile Include="Runner.cpp" />
+    <ClCompile Include="Media.cpp" />
+    <ClCompile Include="ScienceZomb.cpp" />
+    <ClCompile Include="SDash.cpp" />
+    <ClCompile Include="SDash_Multiple_Shotgun.cpp" />
+    <ClCompile Include="SElectricBurst.cpp" />
+    <ClCompile Include="Shotgun.cpp" />
+    <ClCompile Include="Special.cpp" />
+    <ClCompile Include="SpecialController.cpp" />
+    <ClCompile Include="SpecialUpgradeTreeState.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StatHoverWindow.cpp" />
+    <ClCompile Include="Stats.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="Zomb1.cpp" />
+    <ClCompile Include="ZombieFarmer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Zomb.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
